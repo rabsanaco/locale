@@ -114,6 +114,15 @@ class Locale
         return in_array($locale, $this->supported());
     }
 
+    public function isRtl(){
+        return $this->dir() == 'rtl';
+    }
+
+
+    public function isLtr(){
+        return $this->dir() === 'ltr';
+    }
+
 
     /**
      * Retrieve our app's supported locale's from configuration
