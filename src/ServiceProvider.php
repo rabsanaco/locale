@@ -1,7 +1,8 @@
-<?php namespace Vendor\Package;
+<?php
+namespace Rabsanaco\Locale;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use Rabsanaco\Locale\Locale;
+
 
 class ServiceProvider extends LaravelServiceProvider {
 
