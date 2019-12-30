@@ -9,7 +9,7 @@
 namespace Rabsanaco\Locale;
 
 
-class Locale
+class Locale implements LocaleInterface
 {
     /**
      * Cached copy of the configured supported locales

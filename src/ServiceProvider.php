@@ -31,7 +31,7 @@ class ServiceProvider extends LaravelServiceProvider {
     public function register() {
 
         // Bind any implementations.
-        $this->app->singleton(Locale::class, function($app){
+        $this->app->singleton(LocaleInterface::class, function($app){
            return new Locale($app);
         });
 
